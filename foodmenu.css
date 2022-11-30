@@ -1,0 +1,326 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/12/12/42/wall-2059909_640.png");
+}
+
+/* Start of Navbar Styling */
+
+.navbar {
+    background-color: #00ffaa;
+    height: 60px;
+    display: inline-block;
+}
+
+.logo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 8px;
+    width: 25%;  
+}
+ul{
+    margin:20px;
+    padding-bottom:10px;
+    display: flex;
+    float: right;
+  }
+  
+  ul li{
+    list-style:none;
+    margin:0 30px;
+    transition:0.1s;
+  }
+  
+  ul li a{
+    display: block;
+    position:relative;
+    text-decoration:none;
+    font-weight: bolder;
+    padding:5px;
+    font-size:20px;
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    text-transform:uppercase;
+    transition:0.1s;
+  }
+  
+  ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  }
+  
+  ul li a:hover{
+    transform:scale(2);
+    opacity:1;
+    filter:blur(0);
+    text-decoration:none;
+    color:#fff;
+  }
+  
+  ul li a:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: black;
+    border-radius: 8px;
+    transition:0.2s;
+    transform-origin:right;
+    transform:scaleX(0);
+    z-index:-1;
+  }
+  
+  ul li a:hover:before{
+    transition:transform 0.1s;
+    transform-origin:left;
+    transform:scaleX(1);
+}
+
+/* End of navbar styling */
+
+/* FOOD AND DRINKS TITLE styling */
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Monoton', cursive;
+    color:#fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #5271ff,
+    0 0 82px #5271ff,
+    0 0 92px #5271ff,
+    0 0 102px #5271ff,
+    0 0 151px #5271ff;
+}
+
+
+/* Menu Styling */
+
+.maincontainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#menu {
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 50px;
+    width: 400px;
+}
+
+.chooseflavour {
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+  }
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+
+  .foodtype, .drinktype, .scoops {
+    text-align: left;
+    width: 75%;
+  }
+  .price {
+    text-align: left;
+    width: 38px;
+  }
+
+  .flavour {
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+/* MENU and Border Text Styling */
+
+#food {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #00ffaa,
+    0 0 82px #00ffaa,
+    0 0 92px #00ffaa,
+    0 0 102px #00ffaa,
+    0 0 151px #00ffaa;
+    border:0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #00ffaa,
+    0 0 0.8rem #00ffaa,
+    0 0 2.8rem #00ffaa,
+    inset 0 0 1.3rem #00ffaa;
+
+}
+
+#drinks {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+    border:0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #bc13fe,
+    0 0 0.8rem #bc13fe,
+    0 0 2.8rem #bc13fe,
+    inset 0 0 1.3rem #bc13fe;
+
+}
+
+#icecream {
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+    color:#fff;
+    text-shadow: 0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #ffff33,
+    0 0 82px #ffff33,
+    0 0 92px #ffff33,
+    0 0 102px #ffff33,
+    0 0 151px #ffff33;
+    border:0.2rem solid #fff;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 3.5rem;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #ffff33,
+    0 0 0.8rem #ffff33,
+    0 0 2.8rem #ffff33,
+    inset 0 0 1.3rem #ffff33;
+}
+
+/* BUTTON STYLING */
+
+
+
+.foodbutton {
+  background-color: #00ffaa;
+  height: 30px;
+  
+}
+
+.drinkbutton {
+  background-color: #bc13fe;
+  height: 30px;
+}
+
+.scoopbutton {
+  background-color: #ffff33;
+  height: 30px;
+}
+
+/* Subscription form styling */
+.form {
+display: flex;
+justify-content: center;
+padding-bottom: 15px;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+#subscribe-label {
+color:#fff;
+font-family: 'Courier New', Courier, monospace;
+font-size: 16px;
+font-weight: bold;
+}
+
+input{
+    background-color: none;
+    width: 20%;
+}
+
+.submit {
+  background-color: #5271ff;
+  width: 5%;
+}
+
+/* End of Subscription form styling */
+
+/* Footer styling */
+
+.socialmedia {
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.contactus {
+  color:white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 20px;
+}
+i {
+  color: white;
+  font-size: 20px;
+  margin: auto;
+}
+
+.fa-brands:hover {
+transform: scale(2);
+}
+  
+
+
+/* List of items placed on bill */
+
+.bill {
+  color:black;
+  font-size: 14px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+  background-color: white;
+  width: 20%;
+  margin: auto;
+  border:0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 1px;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 .2rem #fff,
+    0 0 2rem #f56ecc,
+    0 0 0.8rem #f56ecc,
+    0 0 2.8rem #f56ecc,
+    inset 0 0 1.3rem #f56ecc;
+
+}
+
+h6 {
+  padding-top: -20px;
+  color:black;
+  font-size: 20px;
+  font-family: 'Comfortaa', cursive;
+  text-align: center
+}
