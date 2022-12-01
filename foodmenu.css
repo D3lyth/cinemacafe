@@ -36,7 +36,7 @@ ul{
     font-weight: bolder;
     padding:5px;
     font-size:20px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     color: black;
     text-transform:uppercase;
     transition:0.1s;
@@ -84,7 +84,7 @@ ul{
 h1 {
     text-align: center;
     font-size: 55px;
-    font-family: 'Monoton', cursive;
+    font-family: 'Comfortaa', sans-serif;
     color:#fff;
     text-shadow: 0 0 7px #fff,
     0 0 10px #fff,
@@ -147,7 +147,7 @@ h1 {
 
 #food {
     font-size: 30px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     color:#fff;
     text-shadow: 0 0 7px #fff,
     0 0 10px #fff,
@@ -171,7 +171,7 @@ h1 {
 
 #drinks {
     font-size: 30px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     color:#fff;
     text-shadow: 0 0 7px #fff,
     0 0 10px #fff,
@@ -195,7 +195,7 @@ h1 {
 
 #icecream {
     font-size: 30px;
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', sans-serif;
     color:#fff;
     text-shadow: 0 0 7px #fff,
     0 0 10px #fff,
@@ -262,7 +262,10 @@ input{
 
 .submit {
   background-color: #5271ff;
-  width: 5%;
+  width: fit-content;
+  color:#fff;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
 }
 
 /* End of Subscription form styling */
@@ -300,7 +303,7 @@ transform: scale(2);
 .bill {
   color:black;
   font-size: 14px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   text-align: center;
   background-color: white;
   width: 20%;
@@ -321,6 +324,24 @@ h6 {
   padding-top: -20px;
   color:black;
   font-size: 20px;
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Comfortaa', sans-serif;
   text-align: center
+}
+
+/* SUBSCRIPTION PAGE STYLING */
+
+.thankyou {
+  text-align: center;
+  font-size: 55px;
+  font-family: 'Comfortaa', sans-serif;
+  color:#fff;
+  text-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #5271ff,
+  0 0 82px #5271ff,
+  0 0 92px #5271ff,
+  0 0 102px #5271ff,
+  0 0 151px #5271ff;
+  margin-bottom: 40%;
 }
