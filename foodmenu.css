@@ -8,6 +8,7 @@ body {
     background-color: #00ffaa;
     height: 60px;
     display: inline-block;
+    width: 100%;
 }
 
 .logo {
