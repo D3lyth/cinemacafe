@@ -119,9 +119,28 @@ html, body{
   background-color: white;
   border-radius: 5px;
   width:fit-content;
-  padding: 15px;
+  padding: 20px;
   max-width: 30%;
-  margin: 10px;
+  margin: 20px;
+}
+
+.booknow {
+    color:black;
+    font-size: 18px;
+    font-family: 'Comfortaa', sans-serif;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    margin: 200px;
+    border:0.2rem solid #fff;
+      border-radius: 2rem;
+      padding: 2px;
+      box-shadow: 0 0 .5rem #fff,
+      0 0 .2rem #fff,
+      0 0 2rem #f56ecc,
+      0 0 0.8rem #f56ecc,
+      0 0 2.8rem #f56ecc,
+      inset 0 0 1.3rem #f56ecc;
 }
 
 /* Subscription form styling */
